@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pageflow:Pageflow xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16686043642570" configfile="/BetsJSF/src/main/webapp/WEB-INF/faces-config.xml"/>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16686043642570" configfile="/BetsJSF/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Main.xhtml" x="324" y="168" id="pf16686083335471" outlinks="pf16686083335472 pf16686083335473" path="/Main.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Login.xhtml" x="624" y="115" id="pf16686083335474" inlinks="pf16686083335472" path="/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Register.xhtml" x="600" y="245" id="pf16686083335475" inlinks="pf16686083335473" path="/Register.xhtml"/>
+  <links id="pf16686083335472" target="pf16686083335474" source="pf16686083335471" outcome="log"/>
+  <links id="pf16686083335473" target="pf16686083335475" source="pf16686083335471" outcome="regi"/>
+</pageflow:Pageflow>
